@@ -8,7 +8,6 @@ This project develops a program to identify 18 monotonic Boolean functions relat
 To run this program, you will need:
 
 - Python 3.x
-- An IDE or text editor for Python (optional)
 
 ### How to Run the Program
 
@@ -26,31 +25,29 @@ To run this program, you will need:
 
 3. **Run the Program**:
    ```
-   python monotonic_boolean_functions.py
+   python monotonic_functions.py
    ```
    This will execute the script and generate the output.
-
+   
 ### Output
 
 Upon running the program, the output will display the identified monotonic Boolean functions, detailing the conditions under which the gene is ON or OFF for each function. The program will also verify if all 18 expected functions are present.
 
-### Example Output:
+### Output Format:
 ```
 Monotonic Boolean functions:
-Function 1: NoRepressors and NoActivators -> OFF | NoRepressors and SomeActivators -> OFF | ...
-Function 2: NoRepressors and NoActivators -> ON | NoRepressors and SomeActivators -> ON | ...
+Function 1:  NoRepressors and NoActivators -> OFF | NoRepressors and SomeActivators -> OFF | NoRepressors and AllActivators -> ON |  ...
+Function 2:  NoRepressors and NoActivators -> OFF | NoRepressors and SomeActivators -> OFF | NoRepressors and AllActivators -> ON |  ...
 
 ...
 
 Total number of monotonic functions: 18
+All expected functions match the generated monotonic functions
 
-All expected functions match the generated monotonic functions.
 ```
 
 This output confirms that the program successfully identified all 18 monotonic Boolean functions and verified them against the expected results.
 
-## Code Explanation
+**For a complete printout of the output and an explanation of the code, please refer to the Biological_Computation.pdf file.**
 
-"
-"
 
